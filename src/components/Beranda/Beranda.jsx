@@ -47,7 +47,7 @@ export default function Beranda() {
               Hubungi Saya
             </button>
             <a
-              href="/public/CV-Rezky-Purnama-Sarta.pdf"
+              href="/public/assets/CV-Rezky-Purnama-Sarta.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 border-2 border-emerald-600 dark:border-emerald-400 text-emerald-700 dark:text-emerald-400 hover:bg-emerald-600 hover:text-white dark:hover:bg-emerald-500 rounded-full font-semibold shadow-md transition-transform transform hover:scale-105"
@@ -64,7 +64,7 @@ export default function Beranda() {
 
           {/* Foto */}
           <img
-            src="/public/foto-saya.jpeg"
+            src="/public/assets/foto-saya.jpeg"
             alt="Rezky Purnama Sarta"
             className="w-64 md:w-80 object-cover drop-shadow-2xl rounded-2xl border-4 border-white dark:border-gray-700 shadow-green-300 transform scale-105 transition-transform duration-300 hover:scale-110"
           />

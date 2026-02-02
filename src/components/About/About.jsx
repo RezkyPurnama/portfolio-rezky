@@ -153,7 +153,7 @@ export default function About() {
                 { name: "Postman", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
                 { name: "VS Code", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
                 { name: "Figma", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-                { name: "XAMPP", img: "/public/xampp.png" },
+                { name: "XAMPP", img: "/public/assets/xampp.png" },
               ].map((tool, index) => (
                 <div
                   key={index}
