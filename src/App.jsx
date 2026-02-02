@@ -1,19 +1,22 @@
-import Navigation from "./components/Navigation";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Beranda from "./components/Beranda";
-import Kontak from "./components/Kontak";
+import Navigation from "./components/Navigation/Navigation";
+import About from "./components/About/About";
+import Projects from "./components/Project/Projects";
+import Beranda from "./components/Beranda/Beranda";
+import Kontak from "./components/Kontak/Kontak";
+import Footer from "./components/Footer/Footer";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    // 🌙 Tambahkan dark:bg-gray-900 biar background berubah
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-500">
       <Navigation />
-      <main>
+      <main className="text-gray-800 dark:text-gray-200 transition-colors duration-500">
         <Beranda />
         <About />
         <Projects />
-        <Kontak/>
-        <Kontak/>
+        <Kontak />
+        <Footer />
       </main>
     </div>
   );
