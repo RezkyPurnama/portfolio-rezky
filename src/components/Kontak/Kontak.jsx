@@ -35,7 +35,7 @@ export default function Kontak() {
 
   return (
     <section
-      id="kontak"
+      id="Kontak"
       className="py-20 px-6 bg-gradient-to-br from-white to-emerald-50 dark:from-gray-900 dark:to-gray-800 transition-colors duration-700"
     >
       <div className="max-w-5xl mx-auto text-center animate-fadeInUp">
@@ -54,12 +54,12 @@ export default function Kontak() {
             {
               icon: <Mail className="text-emerald-600 dark:text-emerald-400" size={28} />,
               title: "Email",
-              detail: "rezkypurnamasarta@gmail.com",
+              detail: "rezkypurnama35@gmail.com",
             },
             {
               icon: <Phone className="text-emerald-600 dark:text-emerald-400" size={28} />,
               title: "Telepon",
-              detail: "+62 853-7562-0900",
+              detail: "+62 877-6727-8357",
             },
             {
               icon: <MapPin className="text-emerald-600 dark:text-emerald-400" size={28} />,

@@ -5,6 +5,7 @@ import Beranda from "./components/Beranda/Beranda";
 import Kontak from "./components/Kontak/Kontak";
 import Footer from "./components/Footer/Footer";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import BackToTop from "./components/BacktoTop/BackToTop";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Projects />
         <Kontak />
         <Footer />
+        <BackToTop />
+
       </main>
     </div>
   );

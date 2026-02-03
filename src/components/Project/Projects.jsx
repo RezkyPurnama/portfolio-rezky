@@ -1,5 +1,7 @@
 import { ExternalLink, Github } from "lucide-react";
 import React from "react";
+import ProjectPetcare from "../../assets/petcare.png";
+
 
 const projects = [
   {
@@ -8,7 +10,7 @@ const projects = [
       "Aplikasi web berbasis Laravel yang dirancang untuk mengelola inventori, layanan hewan peliharaan, dan transaksi penjualan di Q Petcare Padang. Sistem ini dilengkapi dengan fitur pembookingan real-time, integrasi ongkir RajaOngkir, serta pembayaran online via Midtrans untuk meningkatkan efisiensi operasional dan pengalaman pelanggan.",
     demoLink: "https://demo-petshop-production.up.railway.app/",
     githubLink: "#",
-    image: "/src/assets/petcare.png",
+    image: ProjectPetcare,
     tags: ["Laravel", "MySQL", "Midtrans API", "RajaOngkir"],
   },
 
@@ -67,10 +69,9 @@ export default function Projects() {
     >
       <div className="max-w-6xl mx-auto">
         {/* 🔹 Judul Section */}
-        <h1 className="text-emerald-600 dark:text-emerald-400 font-extrabold text-4xl md:text-5xl uppercase mb-16 text-center tracking-wider">
-          Project Saya 💻
+        <h1 className="text-emerald-600 dark:text-emerald-400 font-extrabold text-4xl md:text-4xl uppercase mb-16 text-center tracking-wider">
+          Project Saya 
         </h1>
-
         {/* 🔹 Grid Projects */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 animate-fadeInUp">
           {projects.map((project, index) => (
