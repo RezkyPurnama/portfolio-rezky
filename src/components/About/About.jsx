@@ -19,7 +19,7 @@ export default function About() {
           {/* 🟢 Kolom Kiri */}
           <div className="space-y-6 animate-fadeInLeft">
             <h3 className="text-2xl sm:text-3xl font-extrabold text-gray-900 dark:text-white">
-              Web Developer & Lulusan Manajemen Informatika
+              Web Developer | D-III Manajemen Informatika
             </h3>
 
             <p className="text-sm sm:text-base leading-loose">
@@ -77,8 +77,8 @@ export default function About() {
                     Frontend
                   </h4>
                   <p className="text-sm">
-                    Membuat tampilan interaktif, responsif, dan ramah pengguna dengan
-                    HTML, CSS, JavaScript, dan React.
+                    React, Tailwind CSS, HTML, CSS, JavaScript,
+                    antarmuka responsif dan modern.
                   </p>
                 </div>
 
@@ -89,20 +89,20 @@ export default function About() {
                     Backend
                   </h4>
                   <p className="text-sm">
-                    Berpengalaman dengan pengembangan sistem berbasis <strong>Laravel</strong>,
-                    REST API, dan pengelolaan database.
+                    Laravel & Lumen, REST API, autentikasi JWT & Google SSO,
+                    PostgreSQL, MySQL.
                   </p>
                 </div>
 
                 {/* Soft Skill */}
                 <div className="bg-white/70 dark:bg-gray-800/50 p-5 sm:p-6 rounded-2xl shadow transition-all duration-300 sm:hover:scale-105 sm:hover:shadow-lg text-center">
-                  <i className="bi bi-lightbulb text-3xl text-emerald-600 dark:text-emerald-400 mb-3"></i>
+                  <i className="bi bi-gear text-3xl text-emerald-600 dark:text-emerald-400 mb-3"></i>
                   <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">
-                    Soft Skills
+                    ERP & Tools
                   </h4>
                   <p className="text-sm">
-                    Terbiasa bekerja dalam tim, berpikir analitis, dan memiliki kemampuan
-                    komunikasi yang baik.
+                    Odoo 16 (Python & XML), Swagger, Postman,
+                    Git, dan dokumentasi teknis.
                   </p>
                 </div>
 
@@ -117,11 +117,11 @@ export default function About() {
           {/* Bahasa & Framework */}
           <div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-900 dark:text-white mb-4 sm:mb-6">
-              Bahasa & Framework ⚙️
+              Bahasa Pemrograman & Framework
             </h2>
 
             <p className="text-gray-600 dark:text-gray-400 mb-8 sm:mb-10 text-sm sm:text-base">
-              Bahasa pemrograman dan framework utama yang saya gunakan dalam pengembangan aplikasi:
+              Berikut adalah bahasa pemrograman dan framework utama yang saya gunakan dalam pengembangan aplikasi web.
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 sm:gap-8 animate-fadeInUp">
@@ -155,12 +155,13 @@ export default function About() {
           {/* Tools */}
           <div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-900 dark:text-white mb-4 sm:mb-6">
-              Tools, Platform & Database 🧰
+              Tools, Platform & Database 
             </h2>
 
             <p className="text-gray-600 dark:text-gray-400 mb-8 sm:mb-10 text-sm sm:text-base">
-              Tools, layanan, dan sistem basis data yang saya gunakan untuk mendukung proses pengembangan:
+              Berbagai tools, platform, serta sistem basis data yang saya gunakan untuk menunjang proses pengembangan aplikasi.
             </p>
+
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 sm:gap-8 animate-fadeInUp">
               {[

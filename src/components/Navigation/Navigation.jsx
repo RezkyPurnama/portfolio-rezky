@@ -161,10 +161,18 @@ export default function Navigation() {
 
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="w-10 h-10 mx-auto mt-2 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center"
+            className="
+    w-10 h-10 mx-auto mt-2 rounded-full
+    bg-gray-100 dark:bg-gray-800
+    text-gray-700 dark:text-yellow-400
+    hover:bg-gray-200 dark:hover:bg-gray-700
+    flex items-center justify-center
+    transition
+  "
           >
             {darkMode ? <Sun size={18} /> : <Moon size={18} />}
           </button>
+
         </div>
       </div>
     </nav>
