@@ -1,4 +1,5 @@
 import React from "react";
+import FotoXampp from "../../assets/xampp.png"
 
 export default function About() {
   return (
@@ -153,7 +154,7 @@ export default function About() {
                 { name: "Postman", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
                 { name: "VS Code", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
                 { name: "Figma", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-                { name: "XAMPP", img: "/public/assets/xampp.png" },
+                { name: "XAMPP", img: FotoXampp  },
               ].map((tool, index) => (
                 <div
                   key={index}
