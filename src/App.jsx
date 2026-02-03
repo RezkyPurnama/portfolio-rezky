@@ -6,6 +6,8 @@ import Kontak from "./components/Kontak/Kontak";
 import Footer from "./components/Footer/Footer";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import BackToTop from "./components/BacktoTop/BackToTop";
+import Experience from "./components/Experience/Experience";
+import Pendidikan from "./components/Pendidikan/Pendidikan"
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <main className="text-gray-800 dark:text-gray-200 transition-colors duration-500">
         <Beranda />
         <About />
+        <Pendidikan />
+        <Experience />
         <Projects />
         <Kontak />
         <Footer />

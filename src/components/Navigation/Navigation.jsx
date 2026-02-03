@@ -30,7 +30,7 @@ export default function Navigation() {
   // 🔹 Scroll handler
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["Beranda", "about", "projects", "Kontak"];
+      const sections = ["Beranda", "about","Pendidikan","Pengalaman" ,"projects", "Kontak"];
       const scrollPos = window.scrollY + 200;
       setScrolled(window.scrollY > 40);
 
@@ -55,6 +55,8 @@ export default function Navigation() {
   const menuItems = [
     { id: "Beranda", label: "Beranda" },
     { id: "about", label: "Tentang Saya" },
+    { id: "Pendidikan", label: "Pendidikan" },
+    { id: "Pengalaman", label: "Pengalaman" }, 
     { id: "projects", label: "Projects" },
     { id: "Kontak", label: "Kontak" },
   ];

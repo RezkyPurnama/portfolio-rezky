@@ -140,12 +140,16 @@ export default function Projects() {
                     {project.tags.map((tag, tagIndex) => (
                       <span
                         key={tagIndex}
-                        className="px-3 py-1 bg-emerald-200 text-black rounded-full text-xs sm:text-sm font-medium"
+                        className="text-[11px] sm:text-sm px-3 py-1 rounded-full
+      bg-emerald-100 dark:bg-emerald-900
+      text-emerald-700 dark:text-emerald-300
+      font-medium"
                       >
                         {tag}
                       </span>
                     ))}
                   </div>
+
                 </div>
 
                 {/* 🔹 Tombol */}

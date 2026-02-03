@@ -85,7 +85,7 @@ export default function Beranda() {
               rounded-full font-semibold shadow-md
               transition transform hover:scale-105 text-center"
             >
-              Lihat CV
+              Download CV
             </a>
           </div>
         </div>
