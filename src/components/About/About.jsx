@@ -17,42 +17,31 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-start text-gray-700 dark:text-gray-300 leading-relaxed">
 
           {/* 🟢 Kolom Kiri */}
-          <div className="space-y-6 animate-fadeInLeft">
+          <div className="space-y-5 animate-fadeInLeft">
             <h3 className="text-2xl sm:text-3xl font-extrabold text-gray-900 dark:text-white">
               Web Developer | D-III Manajemen Informatika
             </h3>
 
-            <p className="text-sm sm:text-base leading-loose">
-              Saya adalah seorang <strong>Web Developer</strong> dengan latar belakang pendidikan
-              D3 Manajemen Informatika dari{" "}
-              <span className="font-semibold text-emerald-600 dark:text-emerald-400">
-                Politeknik Negeri Padang
-              </span>
-              . Saya memiliki semangat tinggi dalam mengembangkan solusi berbasis web
-              yang efisien, modern, dan mudah digunakan.
+            <p className="text-sm sm:text-base leading-relaxed">
+              Saya merupakan seorang <strong>Web Developer</strong> lulusan D-III
+              Manajemen Informatika yang memiliki minat dalam pengembangan aplikasi web
+              yang terstruktur, efisien, dan mudah digunakan.
             </p>
 
-            <p className="text-sm sm:text-base leading-loose">
-              Fokus saya adalah pada{" "}
-              <strong>pengembangan sistem informasi</strong> yang terukur dan stabil,
-              menggunakan teknologi modern seperti{" "}
-              <span className="font-semibold text-emerald-700 dark:text-emerald-400">
-                Laravel
-              </span>{" "}
-              dan{" "}
-              <span className="font-semibold text-emerald-700 dark:text-emerald-400">
-                React
-              </span>
-              . Saya juga tertarik pada otomasi proses, integrasi API, serta peningkatan
-              pengalaman pengguna.
+            <p className="text-sm sm:text-base leading-relaxed">
+              Memiliki pengalaman dalam membangun <strong>sistem informasi</strong>,
+              REST API, serta integrasi layanan pihak ketiga dengan menggunakan{" "}
+              <strong>Laravel, PHP, MySQL</strong>, dan <strong>React</strong> untuk
+              menghasilkan aplikasi yang stabil dan mudah dikembangkan.
             </p>
 
-            <p className="text-sm sm:text-base leading-loose">
-              Saya berkomitmen menulis kode yang bersih, mudah dipelihara,
-              dan mengikuti prinsip <em>Clean Code</em> serta metodologi pengembangan
-              perangkat lunak modern.
+            <p className="text-sm sm:text-base leading-relaxed">
+              Saya terbiasa menulis kode yang rapi dan mudah dipelihara, serta bekerja
+              secara kolaboratif dalam tim dengan menerapkan praktik pengembangan
+              perangkat lunak yang baik.
             </p>
           </div>
+
 
           {/* 🟢 Kolom Kanan */}
           <div className="space-y-8 animate-fadeInRight">
@@ -136,6 +125,8 @@ export default function About() {
                 { name: "React", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
                 { name: "TailwindCSS", img: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
                 { name: "Odoo", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Odoo_logo.svg" },
+                { name: "Bootstrap", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" },
+                { name: "Next.js", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" }
               ].map((tech, index) => (
                 <div
                   key={index}
@@ -171,7 +162,8 @@ export default function About() {
                 { name: "GitHub", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
                 { name: "Postman", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
                 { name: "VS Code", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
-                { name: "Figma", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
+                {name: "Firebase", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"},
+
                 { name: "XAMPP", img: FotoXampp },
               ].map((tool, index) => (
                 <div

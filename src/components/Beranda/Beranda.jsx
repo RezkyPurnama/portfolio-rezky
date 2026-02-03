@@ -54,16 +54,10 @@ export default function Beranda() {
           </h3>
 
           <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 leading-relaxed">
-            Saya adalah pengembang web yang bersemangat membangun aplikasi modern
-            dan responsif menggunakan{" "}
-            <span className="font-semibold text-emerald-700 dark:text-emerald-400">
-              Laravel
-            </span>{" "}
-            dan{" "}
-            <span className="font-semibold text-emerald-700 dark:text-emerald-400">
-              React
-            </span>.
+            Saya Web Developer yang antusias membangun aplikasi modern dan responsif, mengubah ide menjadi solusi digital yang fungsional dan menyenangkan bagi pengguna.
           </p>
+
+
 
           {/* 🔘 Tombol */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 justify-center md:justify-start">
